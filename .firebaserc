@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "examenangular-faca0": {
+      "hosting": {
+        "ExamenAngular": [
+          "examenangular-faca0"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "examenangular-faca0"
+  }
+}

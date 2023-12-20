@@ -1,0 +1,26 @@
+<div class="container mt-4">
+    <h2>Entrevistas</h2>
+  
+    <div class="row">
+      <div class="col">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Nombre</th>
+              <th>Puesto</th>
+              <th>Realizada</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let entrevista of listaEntrevistas">
+              <td>{{ entrevista.fecha }}</td>
+              <td>{{ entrevista.candidato.nombre }} {{entrevista.candidato.apellidos}}</td>
+              <td>{{ entrevista.puesto.nombre }}</td>
+              <td>{{ entrevista.realizada ? "Sí" : "No" }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+</div>
